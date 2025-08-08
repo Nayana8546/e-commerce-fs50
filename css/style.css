@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ font-family: Arial, sans-serif;
+background-color: #f8f8f8;
+ color: #333;
+
+}
+
+header {
+background-color: #e91e63; 
+color: white;
+  padding: 20px 40px; 
+  display: flex;
+justify-content: space-between; 
+  align-items: center;
+}
+
+header h1 {
+
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+
+nav a {
+color: white; 
+text-decoration: none;
+ margin-left: 20px;
+  font-weight: 600;
+   transition: color 0.3s ease;
+
+}
+
+nav a:hover {
+
+      color: #ffc1e3; 
+}
+
+.banner {
+
+background: url(/imagens/banner.jpg) no-repeat center center;
+ background-size: cover;
+ text-align: center;
+   padding: 80px 20px;
+color: white; 
+   box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3); 
+
+
+
+
+   
+}
+
+.banner h2 {
+
+  font-size: 2.5rem;
+ margin-bottom: 15px;
+}
+
+.banner p {
+ font-size: 1.2rem;
+
+}
+
+.produtos h2 {
+margin-bottom: 25px;
+    font-size: 2rem;
+color: #444;
+    text-align: center;
+}
+
+.grid-produtos {
+
+    display: flex;
+ gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.produto {background-color: white;
+    border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    padding: 15px;
+    width: 220px;text-align: center;
+    transition: transform 0.3s ease;}
+
+    .produto:hover {
+    transform: translateY(-5px); /* Levanta o cartão */
+}
+
+.produto img {
+    max-width: 100%; /* Imagem não ultrapassa o tamanho do cartão */
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin: 15px 0 10px;
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.produto p {
+
+color: #e91e63; 
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+button {
+     background-color: #e91e63;
+       color: white;
+border: none;
+  padding: 10px 15px;
+border-radius: 5px;
+
+cursor: pointer;
+font-weight: 600;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #c2185b;
+
+
+}
+
+footer {
+
+   background-color: #222;
+
+   color: white;
+   text-align: center;
+   padding: 15px 20px;
+   margin-top: 40px;
+    font-size: 0.9rem;
+
+
+}
+
+
+
+.search-container  {
+
+width:50%;
+height: 50%;
+position: relative;
+
+    
+
+}
+
+
+.search-container input {
+    width: 500px;
+    height: 25x;
+    padding:  0.5 rem;
+
+}
+
+input {
+
+    border-radius: 3px;
+}
